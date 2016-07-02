@@ -9,8 +9,13 @@ number_one = raw_input("Enter a number between 1-20:  ")
 number_two = raw_input("Enter your favorite number:  ")
 number_three = raw_input("Enter your least favorite number:  ")
 
+#dictionary
 animals = dict()
 animals = {"one":"pheasant", "two":"fox", "three":"antelope"}
+
+#mathmatical operators
+number_four = 57 / 7
+number_five = 33 / 11
 
 #collect info from user
 person_one = raw_input("Enter a person's name:  ")
@@ -35,6 +40,9 @@ food_one = raw_input("What is your favorite food:  ")
 noun_two = raw_input("Enter another noun:  ")
 noun_three = raw_input("Enter another noun:  ")
 adjective_four = raw_input("Enter another adjective:  ")
+family_three = raw_input("Enter another family relation:  ")
+person_three = raw_input("Enter another person's name:  ")
+trick = raw_input("Whats a crazy trick you can do:  ")
 
 
 
@@ -57,6 +65,9 @@ Horray! Only {number_three} more minutes until the {food_one} will be
 ready to eat. Don't forget to save room for dessert. My grandma makes the best
 {noun_two} pies. They smell like {noun_three}. I'm so full now I
 feel like an {adjective_four} ''' + animals["three"] + '''! Happy ''' + holiday [1] + '''!
+I hope I get to come back here for the next ''' + str(number_four) + ''' years.
+I wish I could have been here ''' + str(number_five) + ''' years ago when {family_three} {person_three}
+did that crazy {trick}.
 
 
 '''
